@@ -132,7 +132,7 @@
   </body>
   <script>
       const area_w = 640
-        , area_h = 480
+        , area_h = 640
         , tile_sz = 32
         , area_tile_w = area_w / tile_sz
         , area_tile_h = area_h / tile_sz
@@ -246,7 +246,7 @@
           t || (i || pos.shift(),
           pos.push(e),
           i && (pos.length == max_snake ? (food = null,
-          end_game("YOU'RE WINNER !")) : place_food()),
+          end_game("YOU'RE WINNER bestaat dit?!")) : place_food()),
           forgive = !1)
       }
       function start_game() {
